@@ -3,7 +3,7 @@ import allure
 import os
 
 @allure.feature('miuns')
-def test_note(name=9):
+def test_note(name=2):
     a = 2
     assert a > name
 
